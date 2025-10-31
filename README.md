@@ -14,8 +14,8 @@ git --version
 4. Clone the repo
 git clone https://github.com/UCSBAssistiveTech/Mock-ML-Models.git
 
-5. Enter the repo folder
-cd Mock-ML-Models
+5. Enter the repo file
+cd Mock-ML-Models/models/[yourmodel].py
 
 6. Pull up files
 code .
