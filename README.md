@@ -6,48 +6,47 @@ Follow these steps to add or update your mock ML model notebooks in this shared 
 
 If you haven’t downloaded the repo yet:
 
-# Go to the folder where you want the project to live
+2. Go to the folder where you want the project to live
 cd ~/Documents  # or any directory you prefer
 
-# Download / Set up git:
+3. Download / Set up git:
 download git: https://git-scm.com/download/win
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 git --version
 
-# Clone the repo
+4. Clone the repo
 git clone https://github.com/UCSBAssistiveTech/Mock-ML-Models.git
 
-# Enter the repo folder
+5. Enter the repo folder
 cd Mock-ML-Models
 
-# Pull up files
+6. Pull up files
 code .
 
-# Add all new or changed files
+7. Add all new or changed files
 git add .
 
-# Or add specific files
+8. Or add specific files
 git add models/random_forest.ipynb
 
-# Commit Your Changes
+9. Commit Your Changes
 
 Every time you make progress, commit with a clear message:
 
 ex) git commit -m "Add mock model for Random Forest"
 
-# Push to GitHub
+10. Push to GitHub
 
 When your work is ready to share:
 
 git push origin main
 
-# END
 
 # -- Common Commands Reference --
-Check current branch:	git branch
-View recent commits:	git log --oneline
-Undo last commit (local only);	git reset --soft HEAD~1
-Remove all staged files:	git reset
-Check what changed:	git status
-Pull latest main updates:	git pull origin main
+1. Check current branch:	git branch
+2. View recent commits:	git log --oneline
+3. Undo last commit (local only);	git reset --soft HEAD~1
+4. Remove all staged files:	git reset
+5. Check what changed:	git status
+6. Pull latest main updates:	git pull origin main
